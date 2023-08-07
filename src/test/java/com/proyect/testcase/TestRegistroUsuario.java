@@ -29,8 +29,10 @@ public class TestRegistroUsuario {
 
 	@Test
 	public void test() throws InterruptedException {
+		
 		registrousuariopag.registroUsuario();
-		Assert.assertEquals("Your account was created successfully. You are now logged in", registrousuariopag.mensajeRegistroExistolocator);
+		
+		Assert.assertTrue(registrousuariopag.mensajedeRegistro());
 	}
 
 }

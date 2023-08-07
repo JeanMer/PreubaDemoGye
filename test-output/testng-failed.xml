@@ -3,13 +3,13 @@
 <suite name="Failed suite [Project Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="LoginTestChrome(failed)">
     <classes>
-      <class name="com.proyect.testcase.TestRetiroCuenta">
+      <class name="com.proyect.testcase.TestTransferenciaCuenta">
         <methods>
           <include name="tearDown"/>
-          <include name="test"/>
           <include name="setUp"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.proyect.testcase.TestRetiroCuenta -->
+      </class> <!-- com.proyect.testcase.TestTransferenciaCuenta -->
     </classes>
   </test> <!-- LoginTestChrome(failed) -->
 </suite> <!-- Failed suite [Project Suite] -->

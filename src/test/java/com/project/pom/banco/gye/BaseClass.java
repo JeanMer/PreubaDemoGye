@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class BaseClass {
 	
 	private WebDriver driver;
@@ -25,6 +26,7 @@ public class BaseClass {
 	public WebElement findElement(By locator) {
 		return driver.findElement(locator);
 	}
+
 	
 	public List<WebElement> findElements(By locator){
 		return driver.findElements(locator);
@@ -46,6 +48,11 @@ public class BaseClass {
 		driver.findElement(locator).click();
 	}
 	
+	public void click(WebElement element) {
+		element.click();
+	}
+	
+	
 	public Boolean isDisplayed(By locator) {
 		try {
 			return driver.findElement(locator).isDisplayed();
@@ -58,4 +65,7 @@ public class BaseClass {
 	public void visit(String url) {
 		driver.get(url);
 	}
+	
+	
+	
 }

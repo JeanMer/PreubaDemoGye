@@ -43,6 +43,8 @@ public class RegistroUsuarioPag extends BaseClass {
 	}
 	
 	public void registroUsuario() throws InterruptedException {
+		
+		// Link para ingresar a la pantalla de registro de cuenta
 		click(registerLinkLocator);
 		Thread.sleep(3000);
 		
@@ -57,10 +59,11 @@ public class RegistroUsuarioPag extends BaseClass {
 			type("0878452645",phoneLocator);
 			type("45",SSNLocator);
 			
-			type("JeanMer8",usernameLocator);
+			type("JeanMer9",usernameLocator);
 			type("JEAN1405",passwordLocator);
 			type("JEAN1405",repasswordLocator);
 			
+			// Boton para registrar un usuario
 			click(registroBtnLocator);
 		}else {
 			System.out.println("Pagina No Encontrada");

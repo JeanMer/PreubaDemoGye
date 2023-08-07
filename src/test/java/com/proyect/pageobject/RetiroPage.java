@@ -27,7 +27,9 @@ public class RetiroPage extends BaseClass{
 	
 	// Boton de retiro de cuenta
 	
-	By SendPaymentBtnLocator = By.cssSelector("input [type= 'submit'] [class= 'button'] [value= 'Send Payment']");
+	By SendPaymentBtnLocator = By.cssSelector("input[type='submit'][value='Send Payment']");
+	//By registroBtnLocator = By.cssSelector("input[type='submit'][value ='Register']");
+	
 
 	// Mensaje de confirmacion
 	
@@ -40,6 +42,7 @@ public class RetiroPage extends BaseClass{
 	
 	public void retiroCuenta() throws InterruptedException  {
 		
+		// Link para ingresar a la pantalla de pago de facturas
 		click(billpayLinkLocator);
 		Thread.sleep(3000);
 		
@@ -56,6 +59,7 @@ public class RetiroPage extends BaseClass{
 			type("45",amountLocator);
 			type("13455",comboSelectAcountLocator);
 			
+			// Boton para realizar el pago o el retiro de dinero
 			click(SendPaymentBtnLocator);
 			
 			

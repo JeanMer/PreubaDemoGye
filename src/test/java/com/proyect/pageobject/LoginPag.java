@@ -27,9 +27,11 @@ public class LoginPag extends BaseClass{
 	public void testLogin() {
 		
 			if (isDisplayed(usernameLoginLocator)) {
-				type("JeanMer6",usernameLoginLocator);
+				type("JeanMer8",usernameLoginLocator);
 				type("JEAN1405",passwordLoginLocator);
-
+				
+			// Boton para loggear en la pantalla
+			
 				click(loginBtnLocator);
 			}else {
 				System.out.println("No se pudo loggear");
