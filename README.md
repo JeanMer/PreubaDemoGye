@@ -11,8 +11,8 @@
 # Versiones de Depencias a Instalar
 10. Instalar las dependencias que se encuentran en el archivo pom.xml
 11. Versiones a instalar
-		* JavaSE 1.7
-		* org.seleniumhq.selenium V.4.11.0
+	* JavaSE 1.7
+	* org.seleniumhq.selenium V.4.11.0
    	* org.testng V7.8.0
    	* io.github.bonigarcia V5.2.3
 # Como ejecutar las pruebas
