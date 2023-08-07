@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Project Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTestChrome(failed)">
+    <classes>
+      <class name="com.proyect.testcase.TestRetiroCuenta">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.proyect.testcase.TestRetiroCuenta -->
+    </classes>
+  </test> <!-- LoginTestChrome(failed) -->
+</suite> <!-- Failed suite [Project Suite] -->
