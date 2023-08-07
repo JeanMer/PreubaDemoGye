@@ -18,4 +18,4 @@
 # Como ejecutar las pruebas
 12. Digirse al archivo testNG.xml
 13. Dar click boton derecho sobre el archivo
-14. Seleccionar Run As, escoger la opcion TestNG Suite
+14. Seleccionar la opcion del menu despegable Run As, escoger la opcion TestNG Suite
